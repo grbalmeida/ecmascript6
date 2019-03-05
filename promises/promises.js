@@ -23,7 +23,7 @@ promise = new Promise((resolve, reject) => {
         } else {
             reject('Deu tudo errado 2!');
         }
-    })
+    }, result)
 })
 
 promise
